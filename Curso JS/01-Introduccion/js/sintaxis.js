@@ -59,4 +59,22 @@ const obj = {
     pais: "Argentina"
 };
 console.log(obj);
+console.table(obj);
 
+//crear una funcion
+function saludar(nombre) {
+    console.log(`Hola ${nombre}`);
+}
+saludar("Chrixnux");
+
+//crear un bucle
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+//crear una condicion
+if (true) {
+    console.log("Es verdadero");
+} else {
+    console.log("Es falso");
+}
